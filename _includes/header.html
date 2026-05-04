@@ -1,0 +1,47 @@
+<header class="site-header">
+  <div class="header-container">
+    <div class="site-branding">
+      <a href="{{ '/' | relative_url }}" class="site-logo">
+        <i class="fas fa-leaf"></i>
+        <span class="site-title">{{ site.site_name }}</span>
+      </a>
+      <p class="site-description">{{ site.site_tagline }}</p>
+    </div>
+    
+    <nav class="site-nav">
+      <button class="nav-toggle" id="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="{{ '/' | relative_url }}" class="nav-link">首页</a></li>
+        <li><a href="{{ '/archive/' | relative_url }}" class="nav-link">文章归档</a></li>
+        <li class="nav-dropdown">
+          <a href="#" class="nav-link">分类</a>
+          <ul class="dropdown-menu">
+            {% assign categories = site.posts | map: 'category' | uniq | sort %}
+            {% for category in categories %}
+              {% if category %}
+                <li><a href="/category/{{ category }}/">{{ category }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </li>
+        <li class="nav-dropdown">
+          <a href="#" class="nav-link">标签</a>
+          <ul class="dropdown-menu">
+            {% assign all_tags = site.posts | map: 'tags' | join: ',' | split: ',' | uniq | sort %}
+            {% for tag in all_tags limit: 10 %}
+              {% if tag %}
+                <li><a href="/tag/{{ tag }}/">{{ tag }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </li>
+        <li><a href="{{ '/about/' | relative_url }}" class="nav-link">关于</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,60 @@
+# SakuraCat 樱花猫节点获取站点配置
+title: SakuraCat 樱花猫节点获取
+email: info@sakuracat.local
+description: >-
+  SakuraCat樱花猫节点获取 - 提供Clash免费节点与免费机场说明，包含节点导入教程、使用指南等内容。
+baseurl: ""
+url: "https://sakuraCat-app.github.io"
+github_username: sakuraCat-app
+
+# 主题和插件配置
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+# 分页配置
+paginate: 8
+paginate_path: "/page/:num/"
+
+# 永久链接配置 - 不包含日期
+permalink: /:title/
+
+# 构建设置
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+
+# 自定义变量
+site_name: SakuraCat
+site_tagline: 樱花猫节点获取 - Clash免费节点与免费机场
+site_keywords: "Clash, 免费节点, 机场, 樱花猫, 节点获取"
+
+# 分类和标签配置
+collections:
+  categories:
+    output: true
+    permalink: /category/:name/
+  tags:
+    output: true
+    permalink: /tag/:name/
+
+# 排除项
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

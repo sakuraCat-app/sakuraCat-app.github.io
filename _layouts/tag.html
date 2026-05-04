@@ -1,0 +1,238 @@
+---
+layout: default
+---
+
+<div class="tag-page">
+  <h1 class="tag-title">标签：{{ page.tag }}</h1>
+  
+  <div class="tag-description">
+    <p>共有 <strong>{{ site.posts | where_exp: "post", "post.tags contains page.tag" | size }}</strong> 篇文章</p>
+  </div>
+
+  <div class="tag-posts">
+    {% for post in site.posts %}
+      {% if post.tags contains page.tag %}
+        <article class="post-item">
+          <h3 class="post-item-title">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h3>
+          <div class="post-item-meta">
+            <span class="post-item-date">{{ post.date | date: "%Y年%m月%d日" }}</span>
+            {% if post.category %}
+              <span class="category-badge">{{ post.category }}</span>
+            {% endif %}
+            {% if post.tags %}
+              <div class="post-item-tags">
+                {% for tag in post.tags %}
+                  <a href="/tag/{{ tag }}/" class="tag-link {% if tag == page.tag %}active{% endif %}">{{ tag }}</a>
+                {% endfor %}
+              </div>
+            {% endif %}
+          </div>
+          <p class="post-item-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+          <a href="{{ post.url | relative_url }}" class="read-more">阅读更多 →</a>
+        </article>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="tag-sidebar">
+    <h3>热门标签</h3>
+    <div class="tag-cloud">
+      {% assign all_tags = site.posts | map: 'tags' | join: ',' | split: ',' | uniq | sort %}
+      {% for tag in all_tags %}
+        {% if tag %}
+          {% assign posts_count = site.posts | where_exp: "post", "post.tags contains tag" | size %}
+          <a href="/tag/{{ tag }}/" 
+             class="tag-cloud-item {% if tag == page.tag %}active{% endif %}"
+             style="font-size: {% if posts_count > 5 %}1.5{% elsif posts_count > 3 %}1.3{% else %}1{% endif %}em;">
+            {{ tag }}
+            <span class="count">({{ posts_count }})</span>
+          </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<style>
+.tag-page {
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 250px;
+  gap: 2rem;
+}
+
+.tag-title {
+  grid-column: 1 / -1;
+  font-size: 2.5rem;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 1rem;
+}
+
+.tag-description {
+  grid-column: 1 / -1;
+  background-color: var(--bg-color);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tag-posts {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.post-item {
+  background: white;
+  border: 1px solid var(--border-color);
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  transition: all 0.3s ease;
+}
+
+.post-item:hover {
+  box-shadow: var(--shadow-lg);
+  border-color: var(--primary-color);
+}
+
+.post-item-title {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.post-item-title a {
+  color: var(--text-color);
+}
+
+.post-item-title a:hover {
+  color: var(--primary-color);
+}
+
+.post-item-meta {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+  color: var(--light-text);
+}
+
+.post-item-date {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.category-badge {
+  background-color: var(--accent-color);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+}
+
+.post-item-tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.tag-link {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.25rem 0.6rem;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  transition: all 0.3s ease;
+}
+
+.tag-link:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.tag-link.active {
+  background-color: var(--secondary-color);
+}
+
+.post-item-excerpt {
+  color: var(--light-text);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.read-more {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.read-more:hover {
+  color: var(--secondary-color);
+}
+
+.tag-sidebar {
+  background: var(--bg-color);
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  height: fit-content;
+  position: sticky;
+  top: 100px;
+}
+
+.tag-sidebar h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 0.5rem;
+}
+
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.tag-cloud-item {
+  background-color: white;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  padding: 0.5rem 0.8rem;
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.tag-cloud-item:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.tag-cloud-item.active {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.count {
+  font-size: 0.75rem;
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .tag-page {
+    grid-template-columns: 1fr;
+  }
+
+  .tag-sidebar {
+    position: static;
+  }
+}
+</style>

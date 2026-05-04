@@ -1,0 +1,53 @@
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>关于本站</h4>
+        <p>{{ site.description | strip_html }}</p>
+      </div>
+      
+      <div class="footer-section">
+        <h4>快速链接</h4>
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">首页</a></li>
+          <li><a href="{{ '/archive/' | relative_url }}">文章归档</a></li>
+          <li><a href="{{ '/about/' | relative_url }}">关于我们</a></li>
+          <li><a href="{{ '/feed.xml' | relative_url }}">RSS订阅</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h4>热门分类</h4>
+        <ul>
+          {% assign categories = site.posts | map: 'category' | uniq | sort %}
+          {% for category in categories limit: 5 %}
+            {% if category %}
+              <li><a href="/category/{{ category }}/">{{ category }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h4>关注我们</h4>
+        <div class="social-links">
+          {% if site.github_username %}
+            <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          {% endif %}
+          {% if site.twitter_username %}
+            <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-twitter"></i> Twitter
+            </a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; {{ 'now' | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+      <p>Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a></p>
+    </div>
+  </div>
+</footer>

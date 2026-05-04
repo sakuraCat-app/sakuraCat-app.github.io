@@ -1,0 +1,130 @@
+---
+layout: default
+---
+
+<article class="post-container">
+  <div class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="post-meta">
+      <span class="post-date">
+        <i class="fas fa-calendar"></i>
+        {{ page.date | date: "%Y年%m月%d日" }}
+      </span>
+      {% if page.author %}
+        <span class="post-author">
+          <i class="fas fa-user"></i>
+          {{ page.author }}
+        </span>
+      {% endif %}
+      {% if page.reading_time %}
+        <span class="reading-time">
+          <i class="fas fa-clock"></i>
+          {{ page.reading_time }} 分钟阅读
+        </span>
+      {% endif %}
+    </div>
+    
+    {% if page.tags %}
+      <div class="post-tags">
+        {% for tag in page.tags %}
+          <a href="{{ '/tag/' | relative_url }}{{ tag }}" class="tag-badge">{{ tag }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <div class="post-footer">
+    {% if page.category %}
+      <div class="post-category">
+        <strong>分类：</strong>
+        <a href="{{ '/category/' | relative_url }}{{ page.category }}">{{ page.category }}</a>
+      </div>
+    {% endif %}
+    
+    {% if page.tags %}
+      <div class="post-tags-footer">
+        <strong>标签：</strong>
+        {% for tag in page.tags %}
+          <a href="{{ '/tag/' | relative_url }}{{ tag }}" class="tag-link">{{ tag }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</article>
+
+<aside class="post-sidebar">
+  <!-- 同分类文章 -->
+  {% if page.category %}
+    <section class="sidebar-section">
+      <h3>同分类文章</h3>
+      <ul class="article-list">
+        {% for post in site.posts %}
+          {% if post.category == page.category and post.url != page.url %}
+            {% if forloop.index <= 5 %}
+              <li>
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                <span class="post-date-small">{{ post.date | date: "%Y年%m月%d日" }}</span>
+              </li>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
+
+  <!-- 同标签文章 -->
+  {% if page.tags %}
+    <section class="sidebar-section">
+      <h3>同标签文章</h3>
+      <ul class="article-list">
+        {% assign tag_posts = site.posts | where_exp: "post", "post.url != page.url" %}
+        {% for tag in page.tags %}
+          {% assign tagged_posts = tag_posts | where_exp: "post", "post.tags contains tag" %}
+          {% for post in tagged_posts %}
+            {% if forloop.index <= 5 %}
+              <li>
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                <span class="post-date-small">{{ post.date | date: "%Y年%m月%d日" }}</span>
+              </li>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
+
+  <!-- 最新文章 -->
+  <section class="sidebar-section">
+    <h3>最新文章</h3>
+    <ul class="article-list">
+      {% for post in site.posts %}
+        {% if post.url != page.url %}
+          {% if forloop.index <= 5 %}
+            <li>
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              <span class="post-date-small">{{ post.date | date: "%Y年%m月%d日" }}</span>
+            </li>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+
+  <!-- 热门标签 -->
+  <section class="sidebar-section">
+    <h3>热门标签</h3>
+    <div class="tags-cloud">
+      {% assign sorted_tags = site.tags | sort %}
+      {% for tag in sorted_tags %}
+        {% assign posts_count = site.posts | where_exp: "post", "post.tags contains tag" | size %}
+        <a href="{{ '/tag/' | relative_url }}{{ tag }}" class="tag-cloud-item" style="font-size: {% if posts_count > 5 %}1.5{% elsif posts_count > 3 %}1.3{% else %}1{% endif %}em;">
+          {{ tag }} ({{ posts_count }})
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+</aside>
