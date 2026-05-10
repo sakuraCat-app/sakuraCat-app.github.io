@@ -2,7 +2,6 @@
 layout: post
 title: 2024年免费机场推荐与对比
 date: 2024-05-03 14:30:00 +0800
-category: 机场说明
 tags: [免费机场, 推荐, 对比]
 author: SakuraCat
 reading_time: 10

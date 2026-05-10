@@ -35,9 +35,6 @@ layout: default
             {{ post.description | default: post.excerpt | strip_html | truncate: 120 }}
           </div>
           <div class="post-card-footer">
-            {% if post.category %}
-              <span class="category-badge">{{ post.category }}</span>
-            {% endif %}
             <a href="{{ post.url | relative_url }}" class="read-more">阅读更多 →</a>
           </div>
         </article>

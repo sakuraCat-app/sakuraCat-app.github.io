@@ -2,7 +2,6 @@
 layout: post
 title: iOS 小火箭（Shadowrocket）完全使用指南
 date: 2024-05-01 11:45:00 +0800
-category: 教程
 tags: [小火箭, iOS, 使用指南]
 author: SakuraCat
 reading_time: 9

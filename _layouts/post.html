@@ -41,13 +41,6 @@ layout: default
   </div>
 
   <div class="post-footer">
-    {% if page.category %}
-      <div class="post-category">
-        <strong>分类：</strong>
-        <a href="{{ '/category/' | relative_url }}{{ page.category }}">{{ page.category }}</a>
-      </div>
-    {% endif %}
-    
     {% if page.tags %}
       <div class="post-tags-footer">
         <strong>标签：</strong>
@@ -60,25 +53,6 @@ layout: default
 </article>
 
 <aside class="post-sidebar">
-  <!-- 同分类文章 -->
-  {% if page.category %}
-    <section class="sidebar-section">
-      <h3>同分类文章</h3>
-      <ul class="article-list">
-        {% for post in site.posts %}
-          {% if post.category == page.category and post.url != page.url %}
-            {% if forloop.index <= 5 %}
-              <li>
-                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-                <span class="post-date-small">{{ post.date | date: "%Y年%m月%d日" }}</span>
-              </li>
-            {% endif %}
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </section>
-  {% endif %}
-
   <!-- 同标签文章 -->
   {% if page.tags %}
     <section class="sidebar-section">

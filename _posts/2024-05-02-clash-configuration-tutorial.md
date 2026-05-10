@@ -2,7 +2,6 @@
 layout: post
 title: Clash 配置详解与最佳实践
 date: 2024-05-02 09:15:00 +0800
-category: 教程
 tags: [Clash, 配置, 进阶]
 author: SakuraCat
 reading_time: 12
