@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "clash停止更新后还能正常使用吗？替代工具与节点配置建议"
 date: "2026-05-10 05:58:47 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "clash节点订阅最新,节点分享,免费机场,快速clash节点订阅链接,高速节点,clash节点导入不进去,节点订阅"
 description: "clash停止更新后还能正常使用吗？替代clash节点购买链接怎么弄工具与节点配置建议 环境与工具配置 当clash停止更新的消息clash节点续费官方最新出现时，很多用户开始担心能否继续科学上网或保持稳定的连接。其实，即使官方不再维护，我"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/最新机场推荐.png)
 

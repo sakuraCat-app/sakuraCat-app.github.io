@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "clash开tun就断网怎么解决？实测配置与节点选择经验分享"
 date: "2026-05-10 05:58:46 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "节点分享,免费机场,节点是什么意思,高速节点,Clash节点是什么,clash节点网站推荐,节点订阅"
 description: "clash开tclash节点导入教程un就断网怎么解决？实测配置与节点选择经验分享 环境与工具配置 当遇到clash开tun就断网这种情况，首先应了解本地网络与代理工具的关系。Clash、Shadowrocket（俗称小火箭）和V2Ray都"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/六月一个月的机场订阅.png)
 

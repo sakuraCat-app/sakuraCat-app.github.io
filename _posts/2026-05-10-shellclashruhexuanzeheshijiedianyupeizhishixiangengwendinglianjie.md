@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "shellclash 如何选择合适节点与配置实现更稳定连接"
 date: "2026-05-10 05:58:48 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "节点分享,clash节点免费,免费机场,高速节点,免费clash,节点订阅,免费节点"
 description: "shellclash 如何选择合适节点与配置实现更稳定连接 环境与工具配置 在搭建 shellclash 环境之前，需要先了解它与主流代理工具的关联。shellclash 本质免费clash节点2024上是一个基于 Shell 的 Clas"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/付费机场订阅.png)
 

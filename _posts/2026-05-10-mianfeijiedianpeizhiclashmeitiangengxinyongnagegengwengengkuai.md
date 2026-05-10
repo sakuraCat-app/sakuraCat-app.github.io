@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "免费节点配置clash每天更新用哪个更稳更快"
 date: "2026-05-10 05:58:48 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "节点分享,clash节点更新失败怎么解决,clash节点按流量购买,免费机场,免费clash,节点订阅,节点订阅购买"
 description: "免费节点配置clash每天更新用哪个更稳更快 环境与工具配置 要实现“免费节点配置clash每天更新”的稳定体验，首先需要准备好科学上网的基础工具。常见的客户端包括Clash for Windows、Clash for Android以及小"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/最新机场推荐.png)
 

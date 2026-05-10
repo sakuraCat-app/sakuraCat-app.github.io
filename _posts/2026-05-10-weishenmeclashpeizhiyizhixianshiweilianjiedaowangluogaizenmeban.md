@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "为什么clash配置一直显示未连接到网络该怎么办"
 date: "2026-05-10 05:58:48 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "节点推荐购买,最新clash节点,免费机场节点,节点分享,免费机场,高速节点,clash节点导入不进去"
 description: "为什么clash配置一直显示未连接到网络该怎么办 环境与工具配置 在使用Clash进行科学上网时，不少用户会遇到“clash配置一直显示未连接到网络”的问题。通常这与安装或订阅配置不当有关。为了让工具运行稳定，首先要确保所使用的版本和系统环"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/小火箭节点购买.png)
 

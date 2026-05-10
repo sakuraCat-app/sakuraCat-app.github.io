@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "为什么clash重启就断网 以及如何保持稳定连接"
 date: "2026-05-10 05:58:48 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "节点分享,免费机场,高速节点,clash节点全部超时 失败 timeout不能联网,Clash for Windows,免费节点,clash节点购买按流量"
 description: "为什么clash重启就断网 以及如何保持稳定连接 环境与工具配置 很多用户在使用 Clash 或类似代理工具时，会遇到 clash重启就断网 的问题。这个问题通常与系统代理配置、服务端节点质量或 Clash 配置文件加载有关。下面我将根据不"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/clash节点推荐购买.png)
 

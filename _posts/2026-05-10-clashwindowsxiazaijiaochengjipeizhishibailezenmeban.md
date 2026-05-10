@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "Clash Windows下载教程及配置失败了怎么办"
 date: "2026-05-10 05:58:49 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "节点分享,免费机场,clash节点流量购买技巧,clash节点机场免费,节点订阅,免费节点,免费节点订阅"
 description: "Clash Windowclash节点网址s下载教程及配置失败了怎么办 很多朋友在寻找clash windows下载教程时，往往不只是卡在下载这一步，而是下载后不知道如何正确配置，或者遇到软件闪退、无法连接等棘手问题。作为一个折腾网络工具多"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/clash订阅节点购买.png)
 

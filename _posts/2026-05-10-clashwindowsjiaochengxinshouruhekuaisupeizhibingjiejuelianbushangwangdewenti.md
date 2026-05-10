@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "Clash Windows教程：新手如何快速配置并解决连不上网的问题"
 date: "2026-05-10 05:58:50 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "clash windows教程,节点分享,免费机场,快速clash节点订阅链接,免费clash,节点订阅,免费节点"
 description: "Clash Windows教程：新手如何快速配置并解决连不上网的问题 很多刚接触网络代理工具的朋友，第一次在电脑上折腾科学上网环境时，往往会因为复杂的配置项感到头大。特别是当你拿到一个订阅链接，却不知道怎么把它变成能用的网络时，这种挫败感很"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/小火箭节点推荐.png)
 

@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "Clash Windows如何使用才能快速上手配置与节点测速"
 date: "2026-05-10 05:58:50 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "Clash节点购买,clash节点网站推荐理由,节点分享,免费机场,clash节点导入不进去,clash节点网站推荐,节点订阅"
 description: "Clash Windows如何使用才能快速上手配置与节点测速 很多刚接触网络工具的朋友在下载软件后，面对复杂的界面往往一头雾水。其实，只要掌握核心步骤，配置过程并不复杂。本文将手把手教你搞定软件安装、订阅导入以及节点选择，帮助你解决“cla"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/最新机场推荐.png)
 

@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "为什么clash连接成功没有网络以及如何排查修复"
 date: "2026-05-10 05:58:48 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "火箭节点分享,节点分享,clash节点免费,免费机场,高速节点,免费clash,节点订阅"
 description: "为什么clash连接成功没有网络以及如何排clash节点全部显示超时怎么解决查修复 环境与工具配置 在使用Clash、Shadowrocket（小火箭）或V2Ray时，很多用户都会遇到“clash连接成功没有网络”的情况。这个问题通常与配置"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/免费节点订阅.png)
 

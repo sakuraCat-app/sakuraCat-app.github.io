@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "Clash YAML下载失败或配置错误该怎么解决"
 date: "2026-05-10 05:58:49 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "节点分享,clash节点免费,免费机场,解决clash节点全部超时+失败+timeout不能联网了,clash节点免费订阅,节点订阅,clash节点配置订阅分享"
 description: "Clash YAML下载失败或配置错误该怎么解决 很多朋友在初次接触网络代理工具时，最头疼的往往不是软件安装，而是配置文件的获取与导入。大家都在找“clash yaml下载”，但往往下载下来的文件要么格式不对，要么导入后无法联网。其实，YA"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/机场节点购买.png)
 

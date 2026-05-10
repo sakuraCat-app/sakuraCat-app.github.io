@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "Clash Windows中文版界面怎么设置以及节点订阅失败如何解决"
 date: "2026-05-10 05:58:49 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "节点推荐购买,Clash节点购买,节点分享,免费机场,clash节点全部错误怎么办,节点订阅,免费节点"
 description: "Clash Windows中文版界面怎么设置以及节点订阅失败如何解决 很多刚接触网络工具的朋友，在电脑上安装好软件后，第一反应往往是寻找“clash windows中文”汉化补丁或者直接找汉化版安装包。其实，原版软件虽然是英文界面，但只要掌"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/六月一个月的机场订阅.png)
 

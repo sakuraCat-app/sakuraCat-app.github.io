@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "clash yamlline配置文件如何手动修改与节点导入"
 date: "2026-05-10 05:58:49 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "节点推荐购买,节点分享,快速clash节点订阅链接,免费clash,节点订阅,免费节点,clash节点推荐购买"
 description: "clash yamlline配置文件如何手动修改与节点导入 很多刚接触网络代理工具的朋友，在拿到一串订阅链接或者一段乱码一样的配置代码时，往往不知道下一步该怎么做。特别是当你遇到需要手动处理 clash yamlline 格式的情况时，直接"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/一元机场订阅.png)
 

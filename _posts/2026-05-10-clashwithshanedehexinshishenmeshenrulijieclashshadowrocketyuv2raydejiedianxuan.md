@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "Clash with Shane 的核心是什么？深入理解 Clash、Shadowrocket 与 V2Ray 的节点选"
 date: "2026-05-10 05:58:49 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "Clash节点购买,clash节点订阅最新,节点分享,免费机场,clash节点流量购买技巧,clash节点分享,免费clash"
 description: " Clash with Shane 的核心是什么？深入理解 Clash、Shadowrocket 与 V2Ray 的节点选择和使用技巧  对于经常需要稳定网络连接的用户而言，选择一款可靠的代理工具和高质量的节点至关重要。你可能听说过“cla"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/免费机场节点推荐.png)
 

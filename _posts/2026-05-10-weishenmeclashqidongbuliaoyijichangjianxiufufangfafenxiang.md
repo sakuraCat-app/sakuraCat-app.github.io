@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "为什么clash启动不了 以及常见修复方法分享"
 date: "2026-05-10 05:58:48 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "节点分享,clash节点更新失败怎么解决,clash节点订阅价格对比,免费机场,高速节点,clash节点网站推荐,节点订阅"
 description: "为什么clash启动不了 以及常见修复方法分享 环境与工具配置 很多用户在使用 Clash for Windows 或 Clash for Android 时会遇到“clash启动不了”的问题，这通常与安装环境、配置文件或订阅地址有关。我在"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/clash节点推荐购买.png)
 

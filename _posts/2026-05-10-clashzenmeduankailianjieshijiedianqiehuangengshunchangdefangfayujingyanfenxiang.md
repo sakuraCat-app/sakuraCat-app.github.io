@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "clash怎么断开连接时节点切换更顺畅的方法与经验分享"
 date: "2026-05-10 05:58:47 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "节点分享,github clash,clash节点订阅价格对比,免费机场,节点是什么意思,高速节点,clash节点分享"
 description: "clash怎么断开连接时节点切换更顺畅的方法与经验分享 环境与工具配置 在讨论“clash怎么断开”这个问题前，首先要理解 Clash 的运行环境和配置安卓clash节点购买方式。Clash 是一个跨平台的代理工具，支持 Windows、m"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/节点订阅推荐.png)
 

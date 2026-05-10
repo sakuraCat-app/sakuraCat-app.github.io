@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "Clash Windows超时连不上网的几种解决办法与节点排查"
 date: "2026-05-10 05:58:50 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "节点分享,clash节点按流量购买,clash节点免费,免费机场,clash节点免费订阅,clash节点全部错误怎么办,节点订阅"
 description: "Clash Windows超时连不上网的几种解决办法与节点排查 很多人在电脑上刚配置好代理软件，最怕遇到的就是明明软件显示运行中，但浏览器就是打不开网页，或者系统提示“clash windows超时”。这种情况非常搞心态，尤其是当你急需查阅"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/免费节点订阅.png)
 

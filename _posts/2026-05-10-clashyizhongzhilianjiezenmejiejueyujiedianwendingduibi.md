@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "clash已重置连接怎么解决与节点稳定对比"
 date: "2026-05-10 05:58:47 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "Clash节点购买,节点分享,免费机场,Clash节点购买教程,高速节点,clash节点分享,节点订阅"
 description: "clash已重置连接怎么解决与节点稳定对比 环境与工免费节点clash节点推荐具配置 很多用户在使Clash节点订阅链接用 Clash 时遇到“clash已重置连接”提示，这通常与配置环境或代理工具设置有关。要减少此类问题，首先要确保安装环"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/节点订阅地址.png)
 

@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "为什么clash连不上网络该怎么办能否快速恢复使用"
 date: "2026-05-10 05:58:48 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "节点分享,免费机场,高速节点,clash节点分享,免费节点大全,节点订阅,Clash for Windows"
 description: "为什么clash连不上网络该怎么办能否快速恢复使用 环境与工具配置 很多用户初次使用Clash时遇到“clash连不上”的问题，Clash订阅分享多半与环境配置有关。这里以Clash for Windows、Clash for Androi"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/六月一个月的机场订阅.png)
 

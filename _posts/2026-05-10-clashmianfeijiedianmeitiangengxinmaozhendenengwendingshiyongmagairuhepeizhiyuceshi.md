@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "clash免费节点每天更新猫真的能稳定使用吗该如何配置与测试"
 date: "2026-05-10 05:58:46 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "解决clash节点全部超时+失败+timeout不能联网怎么办,clash节点免费分享,节点分享,clash节点免费,免费机场,高速节点,clash节点分享"
 description: "clash免费节点每天更新猫真的能稳定使用吗该如何配置与测试 环境与工具配置 在使用 cclash节点米贝lash免费节点每天更新猫 相关资源前，用户需要正确安装与配置常见代理工具，包括 Clash for Windows、Clash fo"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/小火箭节点推荐.png)
 

@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "clash怎么更新订阅链接遇到问题该怎么办"
 date: "2026-05-10 05:58:47 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "节点分享,clash怎么更新订阅,免费机场,快速clash节点订阅链接,高速节点,节点订阅,免费节点"
 description: "clash怎么更新订阅链接遇到问题该怎么办 环境与工具配置  在开始了解clash怎么更新订阅链接之前，首先需要确保你的科学上网环境已正确搭建。Clash、Shadowrocket（小火箭）和V2Ray 是目前主流的代理工具，它们可通过订阅"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/付费机场订阅.png)
 

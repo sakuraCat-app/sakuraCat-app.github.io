@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "为什么clash重启无网？从配置到节点选择的实测经验分享"
 date: "2026-05-10 05:58:48 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "节点分享,免费机场,快速clash节点订阅链接,高速节点,节点订阅,clash.exe,免费节点"
 description: "为什么clash重启无网？从配置到节点选择的实测经验分享 环境与工具配置 很多用户遇到clash重启无网问题，往往出在环境配置或代理链设置不完整。首先，我们需要明确使用的客户端版本和运行环境，比如 Clash for Windows 或 C"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/小火箭节点购买.png)
 

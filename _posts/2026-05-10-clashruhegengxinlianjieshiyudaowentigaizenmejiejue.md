@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "clash如何更新链接时遇到问题该怎么解决"
 date: "2026-05-10 05:58:47 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "免费机场节点,节点分享,clash节点订阅价格对比,免费机场,clash节点配置失败怎么办,高速节点,节点订阅"
 description: "clash如何更新链接时遇到问题该怎么解决 在使用 Clash 或小火箭（Shadowrocket）等代理工具时，许多用户会遇到 clash如何更新链接 这一问题。其实，更新订阅的核心目的是保持节点列表的实时性，以获得更稳定、更高速的网络连"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/一元机场订阅.png)
 

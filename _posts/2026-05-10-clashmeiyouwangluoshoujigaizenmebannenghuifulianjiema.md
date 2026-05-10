@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "clash没有网络手机该怎么办能恢复连接吗"
 date: "2026-05-10 05:58:46 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "节点推荐购买,clash节点订阅最新,节点分享,clash节点续费官网入口在哪里,clash节点免费,免费机场,手机clash"
 description: "clash没有网络手机该怎么办能恢复连接吗 环境与工具配置 当出现clash没有网络手机的情况时，首先要确认安装环境是否正确。Clash 是一款广受欢迎的科学上网代理工具clash节点订阅最新消息今天，具备多平台支持，包括 Clash fo"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/免费clash节点.png)
 

@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "Clash YAML 导入配置失败怎么解决以及免费订阅来源推荐"
 date: "2026-05-10 05:58:49 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "节点推荐购买,免费机场节点,节点分享,clash节点更新失败怎么解决,github clash,免费机场,收费clash节点"
 description: "Clash YAML 导入配置失败怎么解决以及免费订阅来源推荐 很多刚接触科学上网工具的朋友，在拿github 免费clash节点到机场提供的配置文件时，往往会卡在最后一步：如何把那个复杂的配置文件放进软件里。特别是当你手头只有一个 .ya"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/免费订阅机场.png)
 

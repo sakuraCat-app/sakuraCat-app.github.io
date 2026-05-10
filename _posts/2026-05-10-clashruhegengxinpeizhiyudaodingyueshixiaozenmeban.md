@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "clash如何更新配置遇到订阅失效怎么办"
 date: "2026-05-10 05:58:47 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "节点推荐购买,节点分享,为什么clash节点没速度显示,clash节点免费,免费机场,节点是什么意思,高速节点"
 description: "clash如何更新配置遇到订阅失效怎么办 环境与工具配置 在实际使用中，用户经常会遇到 clash如何更新配置 的问题，尤其是不同系统平台上配置文件路径和订阅格式存在差异。首先，我们需要明确环境工具的种类：包括 Clash for Wind"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/免费节点订阅.png)
 

@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "clash免费节点每天更新2024 是否真的能稳定使用"
 date: "2026-05-10 05:58:46 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "clash节点订阅最新,免费机场节点,节点分享,clash免费节点每天更新2024,免费机场,clash节点订阅最新消息今天,高速节点"
 description: "clash免费节点每天更新2024 是否真的能稳定使用 环境与工具配置 要想顺利体验 clash免费节点每天更新2024 提供的线路，首先需要正确安装与配置相关工具。常用的客户端包括 Clash for Windows、Clash for "
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/六月一个月的机场订阅.png)
 

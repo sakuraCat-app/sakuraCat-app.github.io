@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "clash怎么更新订阅时遇到问题怎么办"
 date: "2026-05-10 05:58:47 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "clash节点订阅最新,clash节点免费分享,节点分享,clash怎么更新订阅,clash节点免费,免费机场,高速节点"
 description: "clash怎么更新订阅时遇到问题怎么办 环境与工具配置 当我们想弄清楚clash怎么更新订阅时，首先要确保环境配置正确。目前常见的代理工具包括 Clash、Clash for Windows、Clash for Android、小火箭（Sh"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/tiktok机场推荐.png)
 

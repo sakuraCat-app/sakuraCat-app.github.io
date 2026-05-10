@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "为什么Clash有效连接但上不了？手把手教你排查与解决网络问题"
 date: "2026-05-10 05:58:48 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "节点分享,免费机场,高速节点,免费clash,节点订阅,免费节点,免费订阅clash"
 description: "为什么Clash有效连接但上不了？手把手教你排查与解决网络问题 环境与工具配置 在遇到“Clash有效连接但上不了”时，很多用户首先怀疑是软件配置或订阅链接的问题。作为长期使用Clash for Windows与小火箭（Shadowrock"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/一元机场订阅.png)
 

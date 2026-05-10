@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "Clash Windows上不了网怎么排查及免费节点订阅来源"
 date: "2026-05-10 05:58:50 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "节点分享,clash节点按流量购买,clash节点免费,免费机场,clash节点分享,节点订阅,免费节点"
 description: "Clash Windows上不了网怎么排查及免费节点订阅来源 很多朋友在初次配置代理工具时，最让人头疼的问题莫过于软件显示运行正常，但浏览器却完全打不开网页。特别是当你发现Clash Windows上不了网，而手机端却一切正常时，这种挫败感"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/clash免费订阅.png)
 

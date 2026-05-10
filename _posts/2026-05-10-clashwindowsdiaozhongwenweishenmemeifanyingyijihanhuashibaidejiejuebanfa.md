@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "Clash Windows调中文为什么没反应以及汉化失败的解决办法"
 date: "2026-05-10 05:58:50 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "Clash节点购买,节点分享,github clash,免费机场,clash节点购买便宜多少,高速节点,clash节点导入不进去"
 description: "Clash Windows调中文为什么没反应以及汉化失败的解决办法 很多刚开clash节点超时怎么回事始接触网络代理工具的朋友，在下载安装完 Clash for Windows 后，第一件事就是想把它变成中文界面。毕竟全英文的操作面板对于不"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/clash节点推荐.png)
 

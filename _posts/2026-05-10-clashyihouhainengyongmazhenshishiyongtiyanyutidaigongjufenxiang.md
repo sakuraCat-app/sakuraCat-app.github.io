@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "clash以后还能用吗 真实使用体验与替代工具分享"
 date: "2026-05-10 05:58:47 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "免费机场,免费clash,高速节点,节点订阅,Clash for Windows,免费节点,什么是clash节点"
 description: "clash以后还能用吗 真实使用体免费clash节点订阅推荐验与替代工具分享 环境与工具配置 很多用户最近都在关注 clash以后还能用吗 这个问题，尤其是在网络环境变化的情况下，工具的安装与配置显得尤为重要。我在最近几周实际测试过 Cla"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/机场节点购买.png)
 

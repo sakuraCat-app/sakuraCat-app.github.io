@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "clash没反应该怎么办常见原因与有效修复思路"
 date: "2026-05-10 05:58:46 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "节点分享,订阅链接在哪里,clash节点免费,免费机场,clash节点免费订阅,高速节点,clash节点分享"
 description: "clash没反应该怎么办常见原因与有效修复思路 环境与工具配置 很多用户在使用 Clash 过程中会遇到“clash没反应”的情况，尤其是在刚完成安装或导入订阅时。要排查此类问题，首先需要确认环境与工具的配置是否正确。以 Clash for"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/机场订阅免费.png)
 

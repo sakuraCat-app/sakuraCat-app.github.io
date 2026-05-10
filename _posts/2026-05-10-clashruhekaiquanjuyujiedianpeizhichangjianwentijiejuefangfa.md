@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "clash如何开全局与节点配置常见问题解决方法"
 date: "2026-05-10 05:58:47 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "Clash节点购买,最新clash节点,Clash节点购买网站的价格,节点分享,订阅链接在哪里,clash节点2025,免费机场"
 description: "clash如何开全局与节点配置常见问题解决方法 环境与工具配置 在开始了解clash如何开全局之前，首先需要确保你的环境与工免费clash节点2025具准备充分。Clash 是一款功能强大的代理客户端，支持多种协议和模式，适用于 Windo"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/最新机场推荐.png)
 

@@ -2,7 +2,6 @@
 layout: post
 title: Clash 节点获取完全指南
 date: 2024-05-04 10:00:00 +0800
-category: 节点获取
 tags: [Clash, 节点, 教程]
 author: SakuraCat
 reading_time: 8

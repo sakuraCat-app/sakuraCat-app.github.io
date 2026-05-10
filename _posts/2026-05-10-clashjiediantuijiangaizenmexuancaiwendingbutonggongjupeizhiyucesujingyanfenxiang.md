@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "clash节点推荐该怎么选才稳定？不同工具配置与测速经验分享"
 date: "2026-05-10 05:58:46 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "clash节点网站推荐理由,节点分享,免费机场,高速节点,clash节点网站推荐,节点订阅,Clash for Windows"
 description: "clash节点推荐该怎么选才稳定？不同工具配置与测速经验分享 环境与工具配置 很多用户在搜索 clash节点推荐 时，往往会关注如何让 Clash、V2Ray 或小火箭（免费Clash节点Shadowrocket）在不同系统上顺利运行。首先"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/节点订阅推荐.png)
 

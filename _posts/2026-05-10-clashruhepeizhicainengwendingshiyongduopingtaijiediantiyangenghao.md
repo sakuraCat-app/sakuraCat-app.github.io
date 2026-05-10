@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "clash如何配置才能稳定使用多平台节点体验更好"
 date: "2026-05-10 05:58:47 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "clash如何配置,节点分享,clash节点2025,免费机场,解决clash节点全部超时+失败+timeout不能联网了,高速节点,clash节点分享"
 description: "clash如何配置才能稳定使用多平台节点体验更好 环境与工具配置 很多Clash节点便宜购买用户第一次接触 Clash、小火箭（Shad免费的clash节点有哪些owrocket） 或 V2Ray 时，最常问的问题就是“clash如何配置”"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/稳定订阅机场推荐.png)
 

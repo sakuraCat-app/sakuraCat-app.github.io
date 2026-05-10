@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "Clash Windows下载的config在哪里以及如何修改配置文件路径"
 date: "2026-05-10 05:58:50 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "clash节点怎么用最好,节点分享,免费机场,节点是什么意思,clash节点分享,免费clash,节点订阅"
 description: "Clash Windows下载的config在哪里以及如何修改配置文件路径 很多刚接触Clash for Windows的用户在配置代理时，经常会遇到一个棘手的问题：明明点击了下载订阅，软件也提示成功了，但想手动修改一下配置或者备份文件时，"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/tiktok机场推荐.png)
 

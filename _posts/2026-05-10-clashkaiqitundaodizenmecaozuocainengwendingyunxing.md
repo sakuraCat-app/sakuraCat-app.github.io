@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "clash开启tun到底怎么操作才能稳定运行"
 date: "2026-05-10 05:58:46 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "免费机场节点,节点分享,免费机场,解决clash节点全部超时+失败+timeout不能联网了,高速节点,clash节点分享,免费clash"
 description: "clash开启tun到底怎么操作才能稳定运行 环境与工具配置 首先，如果你是新手，理解“clash开启tun”的概念很重要。TUN 模式可以让 Clash 在系统层面进行流量劫持，使科学上网节点或代理工具更加兼容各种应用。它适用于 Clas"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/clash节点推荐购买.png)
 

@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "Clash 官方下载后怎么配置节点才能稳定上网"
 date: "2026-05-10 05:58:49 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "Clash节点购买,节点分享,clash节点按流量购买,免费机场,免费clash,节点订阅,免费节点"
 description: "Clash 官方下载后怎么配置节点才能稳定上网 很多朋友在clash节点按流量购买吗搜索“clash 官方下载”并成功安装软件后，发现软件界面一片空白，根本无法上网。其实，Clash 本身只是一个代理工具的内核客户端，它像是一个空的播放器，"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/小火箭节点推荐.png)
 

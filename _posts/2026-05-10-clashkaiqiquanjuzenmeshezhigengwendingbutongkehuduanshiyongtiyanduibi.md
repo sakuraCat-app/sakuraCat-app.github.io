@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "clash开启全局怎么设置更稳定？不同客户端使用体验对比"
 date: "2026-05-10 05:58:46 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "节点推荐购买,节点分享,订阅链接在哪里,clash节点2025,免费机场,快速clash节点订阅链接,快速clash节点订阅链接在哪里"
 description: "clash开启全局怎么设置更稳定？不同客户端使用体验对比 环境与工具配置 在进行clash开启全局前，首先需要准备合适的代理工具。Clash 是目前最主流的跨平台客户端之一，支持 Windows、macOS、Android 等多个系统。常见"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/节点订阅地址.png)
 

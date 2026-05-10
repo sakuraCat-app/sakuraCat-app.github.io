@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "Clash 安卓导入错误怎么解决？一步步排查配置失败的原因"
 date: "2026-05-10 05:58:49 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "节点分享,订阅链接在哪里,clash节点免费,免费机场,clash节点免费订阅,免费clash,节点订阅"
 description: "Clash 安卓导入错误怎么解决？一步步排查配置失败的原因 很多朋友在拿到新的clash节点用不了订阅链接后，兴致勃勃地准备在手机上配置网络环境，结果第一步就卡住了。你可能遇到过这样的提示：“Invalid YAML”、“Network E"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/付费机场订阅.png)
 

@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "clash最后一个选项是什么 新手常见疑问与配置参考"
 date: "2026-05-10 05:58:48 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "节点分享,github clash,免费机场,clash节点购买便宜多少,高速节点,clash节点分享,节点订阅"
 description: "clash最后一个选项是什么 新手常见疑问与配置参考 环境与工具配置 很多用户在安装完 Clash 后，会疑惑 clash最后一个选项是什么，其实它通常与系统代理模式或流量分流有关，不同版本的设定方式略有差异。这里我结合多个平台的使用经验，"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/机场节点推荐.png)
 

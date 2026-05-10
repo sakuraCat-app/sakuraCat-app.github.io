@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "clash全部失败是怎么回事怎么解决更稳定的科学上网节点"
 date: "2026-05-10 05:58:47 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "最新clash节点免费订阅,最新clash节点,节点分享,clash节点免费,免费机场,clash节点免费订阅,高速节点"
 description: "clash全部失败是怎么回事怎么解决更稳定的科学上网节点 环境与工具配置 很多人在使用 Clash 时会遇到“clash全部失败”的情况，这通常与环境配置或节点订阅源有关。首先，要确保你所使用的客户端版本与系统兼clash节点timeout"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/稳定订阅机场推荐.png)
 

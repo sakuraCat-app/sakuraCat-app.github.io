@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "crash和clash如何区分实测体验与节点配置分享"
 date: "2026-05-10 05:58:48 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "节点分享,clash节点免费,免费机场,github免费clash节点,高速节点,免费clash,clash节点流量包购买"
 description: "cragithub免费clash节点sh和clash如何区分实测体验与节点配置分享 环境与工具配置 很多人初次接触网络代理时，会困惑“crash和clash如何区分”。其实两者在英文中发音相近，但在代理软件领域中，Clash 是一个跨平台的"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/免费clash节点.png)
 

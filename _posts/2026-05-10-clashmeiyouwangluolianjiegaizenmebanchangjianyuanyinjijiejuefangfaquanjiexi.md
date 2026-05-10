@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "clash没有网络连接该怎么办？常见原因及解决方法全解析"
 date: "2026-05-10 05:58:46 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "免费机场节点,节点分享,免费机场,clash节点流量购买技巧,高速节点,clash节点网站推荐,节点订阅"
 description: "clash没有网络连接该怎么办？常见原因及解决方法全解析 环境与工具配置 当遇到clash没有网络连接的提示时，第一步应检查环境与工具配置是否正确。Clash是一款常用的科学上网代理工具，兼容Windows、Android与macOS等多平"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/小火箭节点购买.png)
 

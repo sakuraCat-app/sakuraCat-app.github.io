@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "clash最后一个选项在哪里 使用步骤与设置详细解读"
 date: "2026-05-10 05:58:48 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "节点推荐购买,Clash节点购买,节点分享,免费机场,Clash节点购买教程,最新的免费节点,高速节点"
 description: "clash最后一个选项在哪里 使用步骤与设置详细解读 环境与工具配置 很多用户在安装完 Clash 客户端后，都会疑惑 clash最后一个选项在哪里。其实，这个选项通常与配置文件或代理模式切换有关。在不同平台上，Clash节点购买教程如 C"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/clash节点推荐.png)
 

@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "clash如何更新版本 比较旧版与新版差异快速上手"
 date: "2026-05-10 05:58:47 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "clash节点怎么用最好,节点分享,免费机场,高速节点,免费clash,节点订阅,免费节点"
 description: "clash如何更新版本 比较旧版与新版差异快速上手 环境与工具配置 在了解怎么买clash节点功能clash如何更新版本之前，首先需要确认你当前使用的环境与工具。Clash 是一种跨平台的代理工具，广泛支持 Windows、macOS、An"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/节点订阅地址.png)
 

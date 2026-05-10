@@ -2,7 +2,6 @@
 layout: post
 title: 如何进行节点速度测试与优化
 date: 2024-04-30 15:20:00 +0800
-category: 节点获取
 tags: [测速, 优化, 节点]
 author: SakuraCat
 reading_time: 7

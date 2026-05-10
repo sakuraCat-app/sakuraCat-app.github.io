@@ -10,7 +10,10 @@ layout: default
       <p class="tagline">{{ site.site_tagline }}</p>
       <div class="hero-buttons">
         <a href="#latest-posts" class="btn btn-primary">查看最新文章</a>
-        <a href="#categories" class="btn btn-secondary">浏览分类</a>
+        {% assign categories = site.posts | map: 'category' | compact | uniq %}
+        {% if categories.size > 0 %}
+          <a href="#categories" class="btn btn-secondary">浏览分类</a>
+        {% endif %}
       </div>
     </div>
   </section>
@@ -29,7 +32,7 @@ layout: default
             <span class="post-date">{{ post.date | date: "%Y年%m月%d日" }}</span>
           </div>
           <div class="post-card-excerpt">
-            {{ post.excerpt | strip_html | truncatewords: 30 }}
+            {{ post.description | default: post.excerpt | strip_html | truncate: 120 }}
           </div>
           <div class="post-card-footer">
             {% if post.category %}
@@ -42,35 +45,32 @@ layout: default
     </div>
   </section>
 
-  <!-- 分类文章块 -->
+  <!-- 分类文章块 (仅在有分类时显示) -->
+  {% assign categories = site.posts | map: 'category' | compact | uniq | sort %}
+  {% if categories.size > 0 %}
   <section class="categories-section" id="categories">
     <div class="section-header">
       <h2>分类浏览</h2>
     </div>
     <div class="categories-grid">
-      {% assign categories = site.posts | map: 'category' | uniq | sort %}
       {% for category in categories %}
-        {% if category %}
-          <div class="category-block">
-            <h3><a href="/category/{{ category }}/">{{ category }}</a></h3>
-            <ul class="category-posts">
-              {% for post in site.posts %}
-                {% if post.category == category %}
-                  {% if forloop.index <= 5 %}
-                    <li>
-                      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-                      <span class="post-date-small">{{ post.date | date: "%Y年%m月%d日" }}</span>
-                    </li>
-                  {% endif %}
-                {% endif %}
-              {% endfor %}
-            </ul>
-            <a href="/category/{{ category }}/" class="category-link">查看全部 →</a>
-          </div>
-        {% endif %}
+        <div class="category-block">
+          <h3><a href="/category/{{ category }}/">{{ category }}</a></h3>
+          <ul class="category-posts">
+            {% assign cat_posts = site.posts | where: "category", category %}
+            {% for post in cat_posts limit: 5 %}
+              <li>
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                <span class="post-date-small">{{ post.date | date: "%Y年%m月%d日" }}</span>
+              </li>
+            {% endfor %}
+          </ul>
+          <a href="/category/{{ category }}/" class="category-link">查看全部 →</a>
+        </div>
       {% endfor %}
     </div>
   </section>
+  {% endif %}
 
   <!-- 标签文章块 -->
   <section class="tags-section">
@@ -85,15 +85,12 @@ layout: default
           <div class="tag-block">
             <h4><a href="/tag/{{ tag }}/">{{ tag }}</a></h4>
             <ul class="tag-posts">
-              {% for post in site.posts %}
-                {% if post.tags contains tag %}
-                  {% if forloop.index <= 3 %}
-                    <li>
-                      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-                      <span class="post-date-small">{{ post.date | date: "%Y年%m月%d日" }}</span>
-                    </li>
-                  {% endif %}
-                {% endif %}
+              {% assign tag_posts = site.posts | where_exp: "post", "post.tags contains tag" %}
+              {% for post in tag_posts limit: 3 %}
+                <li>
+                  <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                  <span class="post-date-small">{{ post.date | date: "%Y年%m月%d日" }}</span>
+                </li>
               {% endfor %}
             </ul>
           </div>
@@ -108,15 +105,14 @@ layout: default
       <h2>随机推荐</h2>
     </div>
     <div class="recommended-grid">
-      {% assign all_posts = site.posts | sort: 'date' | reverse %}
-      {% assign random_posts = all_posts | sample: 6 %}
+      {% assign random_posts = site.posts | sample: 6 %}
       {% for post in random_posts %}
         <article class="recommended-card">
           <div class="recommended-header">
             <h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
             <span class="post-date">{{ post.date | date: "%Y年%m月%d日" }}</span>
           </div>
-          <p class="recommended-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+          <p class="recommended-excerpt">{{ post.description | default: post.excerpt | strip_html | truncate: 80 }}</p>
           <a href="{{ post.url | relative_url }}" class="read-link">阅读 →</a>
         </article>
       {% endfor %}

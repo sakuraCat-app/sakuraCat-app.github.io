@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "clash最新节点该怎么选才能稳定高速"
 date: "2026-05-10 05:58:48 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "最新clash节点,clash节点怎么用最好,节点分享,免费机场,高速节点,clash节点分享,Clash for Windows"
 description: "clash最新节点该怎么选才能稳定高速 环境与工具配置 在开始使用clash最新节点之前，必须先配置好基础环境。常见跨平台客户端包括 Clash for Windows、Clash for Android 以及 iOS 平台上的 小火箭（S"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/clash免费订阅.png)
 

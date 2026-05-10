@@ -1,5 +1,4 @@
 ---
-category: "节点获取"
 layout: post
 title: "clash重启后没网怎么解决 可行思路与实测方法"
 date: "2026-05-10 05:58:48 +08:00"
@@ -15,7 +14,6 @@ tags:
 keywords: "最新clash节点,免费机场节点,节点分享,免费机场,免费clash,高速节点,clash重启后没网"
 description: "clash重启后没网怎么解决 可行思路与实测方法 环境与工具配置 很多用户在遇到clash重启后没网的问题时，往往是因为系统或网络代理设置没有正确恢复。首先需要检查使用的客户端版本，比如 Clash for Windows、Clash fo"
 ---
-category: "节点获取"
 
 ![Clash节点推荐](https://clashjd.github.io/assets/img/clash订阅节点购买.png)
 
