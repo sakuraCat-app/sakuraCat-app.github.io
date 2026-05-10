@@ -78,7 +78,7 @@ layout: default
       <h2>热门标签</h2>
     </div>
     <div class="tags-block">
-      {% assign all_tags = site.posts | map: 'tags' | join: ',' | split: ',' | uniq | sort %}
+      {% assign all_tags = site.posts | map: 'tags' | flatten | uniq | sort %}
       {% assign random_tags = all_tags | sample: 3 %}
       {% for tag in random_tags %}
         {% if tag %}

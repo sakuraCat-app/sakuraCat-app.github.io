@@ -22,6 +22,7 @@ paginate_path: "/page/:num/"
 permalink: /:title/
 
 # 构建设置
+future: true
 markdown: kramdown
 kramdown:
   input: GFM
@@ -34,8 +35,10 @@ kramdown:
 
 # 自定义变量
 site_name: SakuraCat
-site_tagline: 樱花猫节点获取 - Clash免费节点与免费机场
-site_keywords: "Clash, 免费节点, 机场, 樱花猫, 节点获取"
+site_tagline: 樱花猫节点获取 - Clash免费节点与免费机场说明
+site_keywords: "SakuraCat, 樱花猫, Clash免费节点, 免费机场, 节点获取, 机场推荐, 科学上网"
+google_site_verification: "" # 如果有可以填入
+bing_site_verification: ""   # 如果有可以填入
 
 # 分类和标签配置
 collections:

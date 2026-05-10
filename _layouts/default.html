@@ -3,39 +3,54 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | truncatewords: 20 }}">
-    <meta name="keywords" content="{{ page.tags | join: ',' | default: site.site_keywords }}">
-    <meta name="author" content="{{ site.title }}">
     
-    <!-- Open Graph -->
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | truncatewords: 20 }}">
-    <meta property="og:url" content="{{ page.url | absolute_url }}">
-    <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+    {% seo %}
     
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta name="twitter:description" content="{{ page.excerpt | default: site.description | strip_html | truncatewords: 20 }}">
+    <!-- 基础 SEO 增强 -->
+    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.site_keywords }}{% endif %}">
+    <meta name="author" content="{{ page.author | default: site.title }}">
     
+    <!-- Canonical URL -->
     <link rel="canonical" href="{{ page.url | absolute_url }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+    
+    <!-- 站点图标 -->
+    <link rel="icon" type="image/png" href="{{ '/assets/img/favicon.png' | relative_url }}">
     
     <!-- CSS -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
-    {% if jekyll.environment == 'production' %}
-      <!-- Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-XXXXXXXXXX');
-      </script>
+    <!-- 百度/谷歌站长验证 -->
+    {% if site.google_site_verification %}
+    <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
     {% endif %}
+    {% if site.bing_site_verification %}
+    <meta name="msvalidate.01" content="{{ site.bing_site_verification }}" />
+    {% endif %}
+
+    <!-- 结构化数据 (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "{% if page.layout == 'post' %}BlogPosting{% else %}WebSite{% endif %}",
+      "headline": "{{ page.title | default: site.title }}",
+      "description": "{{ page.description | default: page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 160 }}",
+      "url": "{{ page.url | absolute_url }}",
+      "author": {
+        "@type": "Person",
+        "name": "{{ page.author | default: site.title }}"
+      },
+      "datePublished": "{{ page.date | date_to_xmlschema }}",
+      "publisher": {
+        "@type": "Organization",
+        "name": "{{ site.site_name }}",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{ '/assets/img/logo.png' | absolute_url }}"
+        }
+      }
+    }
+    </script>
   </head>
 
   <body>

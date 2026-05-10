@@ -32,7 +32,7 @@
         <li class="nav-dropdown">
           <a href="#" class="nav-link">标签</a>
           <ul class="dropdown-menu">
-            {% assign all_tags = site.posts | map: 'tags' | join: ',' | split: ',' | uniq | sort %}
+            {% assign all_tags = site.posts | map: 'tags' | flatten | uniq | sort %}
             {% for tag in all_tags limit: 10 %}
               {% if tag %}
                 <li><a href="/tag/{{ tag }}/">{{ tag }}</a></li>
